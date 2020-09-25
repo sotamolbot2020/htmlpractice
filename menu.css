@@ -1,0 +1,147 @@
+/* ============================ header dropdown ============================== */
+
+
+/* ============================ header dropdown ============================== */
+
+/* ============================ bottan  ======================================== */    
+
+.head3:hover{
+     background-image: url(images1/twittericon2.jpg); /*ボタン色*/
+}
+    .head4:hover{
+     background-image: url(images1/youtubeicon2.jpg); /*ボタン色*/
+}
+    
+/* ============================ bottan  ======================================== */  
+    .box1{display: none}    
+.global_nav {
+    position: fixed;
+    top: 90px;
+    left: 0px;
+    width: 100%;
+    z-index: 2;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    color: #000;
+    background: #afc6e2;
+    transition: all 0.5s; 
+    text-justify: inherit;
+    transition: .5s;
+} 
+    .global_nav.hide{
+        transform: translateY(-195%)
+        
+    }
+
+
+
+    
+    
+    
+.nav {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav.hide{
+     transform: translateY(-200%);
+}
+
+.nav li {
+  position: relative;
+  list-style: none;
+}
+.nav li a {
+  display: block;
+  min-width: 100%;
+  width: 118px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  line-height: 50px;
+  background:linear-gradient(#2193b0 ,#6dd5ed);
+  transition: 0.5s;
+  text-decoration: none;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+  border-radius:3px;
+}
+.nav li ul a{
+        width: 200px;
+        font-size: 16px;
+        height: 45px;
+        line-height:40px;
+}
+    
+    
+.nav > li:hover > a {/*layer-1*/
+  color: indigo;
+  background: #afc6e2;
+}
+.nav > li li:hover > a {/*layer-2*/
+  color: olive;
+  background: #afc6e2;
+}
+.nav li ul {
+  top: 50px;
+  left: -40px;
+  position: absolute;
+}
+.nav li ul li {
+  overflow: hidden;
+  height: 0;
+  transition: 0.2s;
+}
+.nav li ul li a {
+  border-top: 1px solid #eee;
+}
+.nav li:hover > ul > li {
+  overflow: visible;
+  height: 45px;
+}
+  .nav li ul li ul {
+    top: 0;
+    left: 160px;
+  }
+  .nav li ul li ul:before {/*layer-2▷*/
+    position: absolute;
+    content: "";
+    top: 18px;
+    left: 30px;
+    border: 5px solid transparent;
+    border-left: 5px solid #fff;
+  }
+  .nav li ul li ul li:hover > a {/*layer-3*/
+    color: pink;
+    background: #afc6e2;
+  }
+  .nav li ul li ul.left {
+    top: 0;
+    left: -240px;
+  }
+  
+  
+.content {
+  width: 750px;
+  height: 200px;
+  background: #eee;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: left;
+  box-sizing: border-box;
+}
+    
+    
+    
+    
+    
+    
+
+    

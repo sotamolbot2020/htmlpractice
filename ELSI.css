@@ -1,0 +1,89 @@
+/* CSSではおもに,htmlファイルのクラスと要素のデザインを設定します*/
+
+
+/* .クラス名　で設定するクラスを選択します。”main”を選択します*/
+body{
+   background-color: lightblue;
+   font-family:;
+}
+
+p{
+  background-color: lawngreen
+}
+.main{
+  max-width: 1200px;
+  width:1200px;
+  /* mainの幅を800pxにします。*/
+  /* mainの幅を900pxにします。*/
+  background-color: aqua;
+  /* mainの背景の色を水色にします。*/
+　
+  margin: 10px 100px 100px 100px;
+  padding: 100px 10px 10px 10px;
+ 
+    
+/* cssのコマンドはたくさんあるので, 必要になったらその都度ネットで調べてコピペするといいでしょう。必ず終わりに；を忘れないように, c言語と同じような注意点です。cssは, 1つエラーがあると, ドミノ倒し式に, 他のコマンドもエラーになります。試しに；や｝を一つ消してみてください。*/
+    
+}
+
+/* クラスsubのデザインも同様変えます*/
+.sub{
+    max-width:1200px;
+    height: 600px;
+    background-color: red;
+}
+
+
+/* 要素のidを指定します。要素では,クラスと違い（　．）でなく＃を頭に描きます*/
+#sub_id{
+    font-size: 30px; 
+    /* フォントサイズを30pxにします*/
+}
+
+.menu{
+    width:1200px;
+    height: 100px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 15px;
+    display:inline-flex;
+    background-color: aquamarine;
+}
+
+.menu1{
+    width:1200px;
+    height: 60px;
+    background-color: yellow;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    border: solid 5px black;
+    border-radius: 0px;
+    position:relative;
+    text-align:center;
+}
+
+
+
+.head_m3{ 
+}
+
+
+@media screen and ( max-width:700px ){
+
+
+.main{
+  max-width: ;
+  width:1200px;
+  background-color: blue;
+  margin: 10px;
+    padding: 100px 10px 10px 10px;
+    
+
+
+}
+
+}
+p:hover{
+    background-color: */darkviolet*/;
+}
